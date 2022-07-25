@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100;400&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.estiloHeader{
+    text-align: center;
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    margin-right: 20px;
+    color: black;
+    
+}
+
+body{
+    background: url("../img/chefs-bg.jpg") center center no-repeat;
+      background-size: cover;
+}
+
+.nosotros{
+    background: url("../imagenes/pexels-william-choquette-2641886.jpg") center center no-repeat;
+      background-size: cover;
+}
+
+
+/*Boton Wsp*/
+.botonWsp img{
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 4;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+
+.footer h2{
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+}
+
+.primeraCaja img{
+    width: 100%;
+    height: 95vh;
+
+}
+
+.primeraCaja h2{
+
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Yellowtail', cursive;
+        font-size: 50px;
+        color: black;
+    
+}
+
+.primeraCaja p{
+    color: black;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+}
+
+.contenidoInicio h2{
+    font-size: 40px;
+}
+
+.contenidoInicio p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.cardsInicio p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.acordionPropio{
+    border: 20px;
+}
+
+.cajaContainer{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+}
+
+
+.cajaMinion{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+}
+
+
+.tituloPreguntas{
+    color: black;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cajaContacto{
+    background-color: #435151;
+    border-radius: 30px;
+
+}
+
+.cajaContacto label{
+    color: white;
+}
+
+.tituloContacto{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+.videoNosotros iframe{
+    border-radius: 20px;
+}
+
+
+.videoNosotros{
+    padding-left: 0;
+}
+
+.chefs {
+    /*background: url("../img/chefs-bg.jpg") center center no-repeat;
+    background-size: cover;*/
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .chefs::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9;
+  }
+  
+  .chefs .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .chefs .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  
+  .chefs .member .pic {
+    overflow: hidden;
+  }
+  
+  .chefs .member .member-info {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 20px 0;
+    color: #433f39;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .chefs .member h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #6c665c;
+    position: relative;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .chefs .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #ffcf88;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .chefs .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .chefs .member .social {
+    margin-top: 15px;
+  }
+  
+  .chefs .member .social a {
+    transition: color 0.3s;
+    color: #7a7368;
+  }
+  
+  .chefs .member .social a:hover {
+    color: #ffb03b;
+  }
+  
+  .chefs .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+  }
