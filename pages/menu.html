@@ -20,7 +20,35 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" style="color: #ffb03b;" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #ffb03b;" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #ffb03b;" href="sobreNosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #ffb03b;" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #ffb03b;" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid estiloHeader">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,15 +64,1047 @@
                 </div>
               </div>
             </div>
-          </nav>
+          </nav> -->
     </header>
 
+    <section id="menu" class="menu">
+      <div class="container cajaMenu mt-3" data-aos="fade-up">
+
+        <div class="section-header text-center">
+          <h1>Nuestro Menu</h1>
+          <p>Te invitamos a Conocerlo</p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-entradas">
+              <h4>Entradas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-ensaladas">
+              <h4>Ensaladas</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-sandwiches">
+              <h4>Sandwiches</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-principales">
+              <h4>Principales</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-pizzas">
+              <h4>Pizzas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-calzones">
+              <h4>Calzones</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-empanadas">
+              <h4>Empanadas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-postres">
+              <h4>Postres</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-bebidas">
+              <h4>Bebidas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-cervezas">
+              <h4>Cervezas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+          
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <!-- MENU ENTRADAS ----------------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="tab-pane fade active show" id="menu-entradas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Entradas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Papas Salvattore</h4>
+                <p class="ingredients">
+                  Crema de verdeo, Panceta y Cheddar
+                </p>
+                <p class="price">
+                  $1760
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Rabas</h4>
+                <p class="ingredients">
+                  Con Limon y Perejil
+                </p>
+                <p class="price">
+                  $2200
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Gambas y Hongos</h4>
+                <p class="ingredients">
+                  Salteados en Oliva
+                </p>
+                <p class="price">
+                  $2300
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div>
+          <!-- FIN MENU ENTRADAS -->
+
+          <!-- MENU ENSALADAS ----------------------------------------------------------------------------------------------------------------------------->
+          <div class="tab-pane fade" id="menu-ensaladas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Ensaladas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Ensalada de Rucula</h4>
+                <p class="ingredients">
+                  Rucula, Calabazas asadas, Tomates asados Marinados, Queso de Cabra y Mix de semillas
+                </p>
+                <p class="price">
+                  $1560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Ensalada Caesar</h4>
+                <p class="ingredients">
+                  Lechuga, Pollo, Parmesano y Aderezo Caesar
+                </p>
+                <p class="price">
+                  $1760
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Ensalada de Salmon Ahumado</h4>
+                <p class="ingredients">
+                  Rucula, Salmon ahumado, Queso crema con ciboulette y Mix de semillas
+                </p>
+                <p class="price">
+                  $2100
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- FIN MENU ENSALADAS-->
+
+          <!-- MENU SANDWICHES -->
+          <div class="tab-pane fade" id="menu-sandwiches">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Sandwiches</h3>
+            </div>
+
+            <div class="row gy-5">
+
+            
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Sandwich de Bondiola</h4>
+                <p class="ingredients">
+                  Panceta, Cebolla caramelisada, Cheddar, Barbacoa y Batatas Fritas
+                </p>
+                <p class="price">
+                  $2020
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Hamburguesa Salvattore</h4>
+                <p class="ingredients">
+                  Cheddar, Tomate Confitado, Jamon, Cebolla grillada, Alioli y Papas Fritas
+                </p>
+                <p class="price">
+                  $1880
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- FIN MENU SANDWICHES -->
+
+          <!-- MENU PRINCIPALES ---------------------------------------------------------------------------------------------------------------------->
+
+          <div class="tab-pane fade" id="menu-principales">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Principales</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Risotto Salvattore</h4>
+                <p class="ingredients">
+                  Hongos, Cebolla y Panceta
+                </p>
+                <p class="price">
+                  $2900
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Risotto de Mar</h4>
+                <p class="ingredients">
+                  Gambas, Mejillones y Berberechos
+                </p>
+                <p class="price">
+                  $3400
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Risotto de Ave</h4>
+                <p class="ingredients">
+                  Cebolla, Morron y Pollo
+                </p>
+                <p class="price">
+                  $2400
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Milanesa de Ave/Ternera</h4>
+                <p class="ingredients">
+                  Con Pure / Papas Fritas
+                </p>
+                <p class="price">
+                  $1900
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Penne Rigatti</h4>
+                <p class="ingredients">
+                  Salteados en Oliva, Albahaca y Tomates Cherry
+                </p>
+                <p class="price">
+                  $1780
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Salmon Rosado</h4>
+                <p class="ingredients">
+                  Con Faina y Mix de Hojas Verdes
+                </p>
+                <p class="price">
+                  $3460
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Entraña</h4>
+                <p class="ingredients">
+                  Con Salsa Criolla, Papas Rusticas y Mix de Hojas Verdes
+                </p>
+                <p class="price">
+                  $3480
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Vacio Braseado</h4>
+                <p class="ingredients">
+                  Con Papas Cuña, Cebollas y Morrones Asados y Mix De Hojas Verdes
+                </p>
+                <p class="price">
+                  $3180
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Wok Thai De Ave</h4>
+                <p class="ingredients">
+                  Con Vegetales, Jengibre, Salsa de Soja y Mix de Semillas
+                </p>
+                <p class="price">
+                  $2200
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Wok Thai De Frutos de Mar</h4>
+                <p class="ingredients">
+                  Con Vegetales, Jengibre, Salsa de Soja, Gambas, Berberechos, Mejillones y Mix de Semillas
+                </p>
+                <p class="price">
+                  $2600
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Raviolones De Ternera</h4>
+                <p class="ingredients">
+                  Con Crema y Hongos
+                </p>
+                <p class="price">
+                  $2600
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Cazuela De Mariscos</h4>
+                <p class="ingredients">
+                  Gambas, Langostinos, Mejillones, Berberechos, Calamar y Corvina
+                </p>
+                <p class="price">
+                  $3500
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- FIN MENU PRINCIPALES-->
+
+          <!-- MENU PIZZAS ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <div class="tab-pane fade" id="menu-pizzas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Pizzas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Mozzarella</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano
+                </p>
+                <p class="price">
+                  $2020
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Peperoni</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano, Peperoni
+                </p>
+                <p class="price">
+                  $2560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Roquefort</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano, Queso Roquefort
+                </p>
+                <p class="price">
+                  $2460
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Anchoas</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano, Anchoas
+                </p>
+                <p class="price">
+                  $2160
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Provenzal</h4>
+                <p class="ingredients">
+                Mozzarella, Aceitunas, Oregano, Ajo y Perejil
+                </p>
+                <p class="price">
+                  $2260
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Fugazzeta</h4>
+                <p class="ingredients">
+                  Mozzarella, Cebolla y Parmesano
+                </p>
+                <p class="price">
+                  $2460
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Napolitana</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas Negras, Oregano, Tomate
+                </p>
+                <p class="price">
+                  $2560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Jamon Y Morrones</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano, Jamon Y Morrones
+                </p>
+                <p class="price">
+                  $2560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Rucula Y Jamon Crudo</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Rucula, Jamon Crudo Y Aceitunas
+                </p>
+                <p class="price">
+                  $3060
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Del Bosque</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Oregano, Variedad de Hongos y Parmesano
+                </p>
+                <p class="price">
+                  $2560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Salmon</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas Negras, Rucula, Parmesano Y Salmon Ahumado
+                </p>
+                <p class="price">
+                  $3160
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Anana</h4>
+                <p class="ingredients">
+                Mozzarella, Jamon, Anana, Azucar Y Cerezas
+                </p>
+                <p class="price">
+                  $2460
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Berenjenas Y Parmesano</h4>
+                <p class="ingredients">
+                Mozzarella, Berenjenas Grilladas, Alcaparras, Panceta, Tomates Cherry Y Parmesano 
+                </p>
+                <p class="price">
+                  $2860
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Rucula</h4>
+                <p class="ingredients">
+                  Salsa de Tomate, Mozzarella, Aceitunas, Rucula Y Parmesano
+                </p>
+                <p class="price">
+                  $2460
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Salvattore</h4>
+                <p class="ingredients">
+                  Mozzarella, Panceta, Ajo, Albahaca Y Oliva
+                </p>
+                <p class="price">
+                  $2780
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Palmitos</h4>
+                <p class="ingredients">
+                  Salsa Golf, Mozzarella, Aceitunas Negras, Oregano, Jamon, Palmitos, Morrones Y Huevo
+                </p>
+                <p class="price">
+                  $2900
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Provolone</h4>
+                <p class="ingredients">
+                Mozzarella, Oregano, Provolone, Parmesano Y Oliva
+                </p>
+                <p class="price">
+                  $3060
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De Verduras</h4>
+                <p class="ingredients">
+                  Mozzarella, Acelga, Salsa Blanca, Morrones, Huevo y Aceitunas
+                </p>
+                <p class="price">
+                  $2460
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Faina</h4>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Faina Rellena</h4>
+                <p class="ingredients">
+                  Mozzarella y Cebolla
+                </p>
+                <p class="price">
+                  $340
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Faina Al Verdeo</h4>
+                <p class="ingredients">
+                  Mozzarella y Verdeo
+                </p>
+                <p class="price">
+                  $340
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+          <!-- MENU CALZONES --------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="tab-pane fade" id="menu-calzones">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Calzones</h3>
+            </div>
+
+            <div class="row gy-5">
+
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Napolitano</h4>
+                <p class="ingredients">
+                  Mozzarella, Jamon, Tomate, Ajo, Oliva Y Oregano
+                </p>
+                <p class="price">
+                  $2860
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Fugazzon</h4>
+                <p class="ingredients">
+                  Mozzarella, Cebolla, Jamon, Morron Y Aceitunas
+                </p>
+                <p class="price">
+                  $2680
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Calabres</h4>
+                <p class="ingredients">
+                  Mozzarella, Tomate y Longaniza
+                </p>
+                <p class="price">
+                  $2960
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>De La Montaña</h4>
+                <p class="ingredients">
+                  Mozzarella, Queso de Cabra, Tomate, Jamon Crudo Y Aceitunas Negras
+                </p>
+                <p class="price">
+                  $3080
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div> 
+          <!-- FIN MENU CALZONES -->
+
+          <!-- MENU EMPANADAS  ------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="tab-pane fade" id="menu-empanadas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Empanadas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Magnam Tiste</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $5.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Carne A Cuchillo</h4>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Jamon Y Queso</h4>
+                <p class="ingredients">
+                  Mozzarella Y Jamon
+                </p>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Humita</h4>
+                <p class="ingredients">
+                  Salsa Blanca Y Choclo
+                </p>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Pollo</h4>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Cebolla</h4>
+                <p class="ingredients">
+                  Mozzarella Y Cebolla
+                </p>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Verdura</h4>
+                <p class="ingredients">
+                  Salsa Blanca, Mozzarella Y Espinaca
+                </p>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Roquefort</h4>
+                <p class="ingredients">
+                  Mozzarella Y Roquefort
+                </p>
+                <p class="price">
+                  $300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Capresse</h4>
+                <p class="ingredients">
+                  Mozzarella, Tomate Y Albahaca
+                </p>
+                <p class="price">
+                  $330
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Cordero</h4>
+                <p class="ingredients">
+                  Cordero, Zanahoria, Papa, Cebolla
+                </p>
+                <p class="price">
+                  $330
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Cerdo Braseado</h4>
+                <p class="ingredients">
+                  Cerdo Braseado en Barbacoa
+                </p>
+                <p class="price">
+                  $330
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Puerro</h4>
+                <p class="ingredients">
+                  Puerro, Panceta y Ciruela
+                </p>
+                <p class="price">
+                  $330
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- FIN MENU EMPANADAS -->
+
+          <!-- MENU POSTRES ------------------------------------------------------------------------------------------------------------------------------------->
+
+          <div class="tab-pane fade" id="menu-postres">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Postres</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Duo Argento</h4>
+                <p class="ingredients">
+                  Queso y Dulce de Membrillo / Batata
+                </p>
+                <p class="price">
+                  $600
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Tiramisu</h4>
+                <p class="price">
+                  $1050
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Panqueque</h4>
+                <p class="ingredients">
+                  Con Dulce de Leche y Azucar Impalpable Quemado
+                </p>
+                <p class="price">
+                  $700
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Brownie</h4>
+                <p class="ingredients">
+                  Con Helado de Americana
+                </p>
+                <p class="price">
+                  $940
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Flan Casero</h4>
+                <p class="ingredients">
+                  Con Dulce de Leche y Crema
+                </p>
+                <p class="price">
+                  $720
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Cremas Heladas</h4>
+                <p class="ingredients">
+                  Dulce de Leche, Americana, Chocolate, Frutilla y Limon
+                </p>
+                <p class="price">
+                  $850
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Mousse De Chocolate</h4>
+                <p class="ingredients">
+                  Con Garrapiñada de Almendras y Nueces
+                </p>
+                <p class="price">
+                  $940
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Frutillas Con Crema</h4>
+                <p class="price">
+                  $900
+                </p>
+              </div><!-- Menu Item -->
+              
+
+            </div>
+          </div><!-- FIN MENU POSTRES -->
+
+          <!-- MENU BEBIDAS -------------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="tab-pane fade" id="menu-bebidas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Bebidas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Agua Con/Sin Gas<h4>
+                <p class="price">
+                  $350
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Awafrut</h4>
+                <p class="ingredients">
+                 Manzana, Pomelo, Naranja-Durazno
+                </p>
+                <p class="price">
+                  $350
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Gaseosas</h4>
+                <p class="ingredients">
+                Pepsi, 7up, Mirinda, Tonica, Pomelo
+                </p>
+                <p class="price">
+                  $350
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>H2O</h4>
+                <p class="ingredients">
+                  Cirtus, Limoneto
+                </p>
+                <p class="price">
+                  $350
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Exprimido De Naranja</h4>
+                <p class="price">
+                  $900
+                </p>
+              </div><!-- Menu Item -->
+
+              
+
+            </div>
+          </div><!-- FIN MENU BEBIDAS -->
+
+          <!-- MENU CERVEZAS -------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="tab-pane fade" id="menu-cervezas">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Cervezas</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Lata Stella</h4>
+                <p class="price">
+                  $560
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Lata Quilmes</h4>
+                <p class="price">
+                  $490
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Porron Corona</h4>
+                <p class="price">
+                  $630
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Patagonia 3/4</h4>
+                <p class="ingredients">
+                  Amber, Bohemian, Weisse, Kune, 24.7
+                </p>
+                <p class="price">
+                  $1000
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Stella 3/4</h4>
+                <p class="price">
+                  $900
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+      
+                <h4>Jarra Stella Tirada 1.5 Lts</h4>
+                <p class="price">
+                  $2000
+                </p>
+              </div><!-- Menu Item -->
+
+              
+
+            </div>
+          </div><!-- FIN MENU CERVEZAS -->
+
+        </div>
+
+      </div>
+    </section>
 
 
 
 
 <!-- FOOTER -->
-    <footer>
+
+<footer class="py-3 my-4 bg-dark">
+        <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: #ffb03b;">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: #ffb03b;">Menu</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: #ffb03b;">Sobre Nosotros</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: #ffb03b;">Contacto</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: #ffb03b;">Preguntas Frecuentes</a></li>
+          <li class="ms-5 text-center"><a href="https://m.facebook.com/salvattorecarilo/" target="_blank"><img src="imagenes/facebook.svg" alt=""></a></li>
+          <li class="ms-5 text-center"><a href="https://www.instagram.com/salvattorecarilo/?hl=es-la" target="_blank"><img src="imagenes/instagram.svg" alt=""></a></li>
+        </ul>
+      </footer>
+
+    <!-- <footer>
         <div class="hijoFooter redes">
             <h2>Redes Sociales</h2>
             <nav>
@@ -73,7 +1133,8 @@
             </nav>
         </div>
 
-    </footer>
+    </footer> -->
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
