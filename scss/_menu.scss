@@ -1,6 +1,8 @@
 
 /* MENU */
 
+
+
 .menu {
     h1, p {
       color: white;
@@ -34,7 +36,8 @@
       }
   
       &:hover {
-        color: #ffb03b;
+        /*Entrega MAPS SASS 2 */
+        color: map-get($map: $colorMenu, $key: color );
       }
   
       &.active {

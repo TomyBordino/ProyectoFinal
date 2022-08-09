@@ -41,6 +41,7 @@
   
   .bordeImagenIngredientes {
     border-radius: 25px;
+    @include parrafos;
   }
   
   .cardsInicio p {
@@ -51,7 +52,23 @@
   }
   
   .cajaContainer, .cajaMinion {
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
     }
+  
+.extend{
+  color: violet;
+  font-size: 20px ;
+}
+  
+.extendDos{
+    @extend .extend;
+    text-decoration: uppercase;
+}
+  
+  
+  
+  
+  
+  
   
