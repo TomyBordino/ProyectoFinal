@@ -279,16 +279,6 @@ footer {
       display: block;
       font-size: 13px;
       font-family: 'Josefin Sans', sans-serif; }
-    .chefs .member .social {
-      margin-top: 15px; }
-      .chefs .member .social a {
-        transition: color 0.3s;
-        color: #7a7368; }
-        .chefs .member .social a:hover {
-          color: #f7b733; }
-      .chefs .member .social i {
-        font-size: 16px;
-        margin: 0 2px; }
 
 @media (max-width: 575px) {
   .menu .nav-link {
