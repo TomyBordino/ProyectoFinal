@@ -1,14 +1,12 @@
 .primeraCaja {
-    img {
-      width: 100%;
+
+    img{
       height: 95vh;
     }
   
     h2 {
       text-align: center;
-      font-family: 'Josefin Sans', sans-serif;
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Yellowtail', cursive;
+      font-family: 'lobster', cursive;
       font-size: 50px;
       color: black;
     }
@@ -16,9 +14,7 @@
     p {
       color: black;
       font-size: 30px;
-      font-family: 'Josefin Sans', sans-serif;
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Yellowtail', cursive;
+      font-family: 'lobster', cursive;
     }
   }
   
@@ -29,11 +25,13 @@
   .contenidoInicio {
     h2 {
       font-size: 40px;
+    font-family: 'lobster', cursive;
+
     }
   
     p {
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 600;
       text-align: center;
       font-family: 'Josefin Sans', sans-serif;
     }
@@ -54,6 +52,7 @@
   .cajaContainer, .cajaMinion {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 30px;
+
     }
   
 .extend{

@@ -4,7 +4,14 @@
   
   
   .tituloPreguntas {
-    color: black;
+    color: white;
     font-size: 40px;
     font-family: 'Josefin Sans', sans-serif;
+    border-bottom: $color-amarillo solid;
+  }
+
+  .cajaPreguntas {
+    background: rgba(3, 3, 3, 0.8);
+    border-radius: 5px;
+
   }

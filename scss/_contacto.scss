@@ -4,13 +4,20 @@
   
     label {
       color: white;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    ::placeholder{
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    button{
+      font-family: 'Josefin Sans', sans-serif;
     }
   }
   
   .tituloContacto {
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Yellowtail', cursive;
+    font-family: 'lobster', cursive;
     font-size: 40px;
   }
 
@@ -21,3 +28,19 @@
     align-content: center;
     margin: auto;
   }
+
+
+  .contacto{
+    h2, h3{
+      font-family: 'lobster', cursive;
+      border-bottom: red solid;
+    }
+
+
+    p{
+      font-size: 16px;
+      font-weight: bold;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+
