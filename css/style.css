@@ -23,7 +23,6 @@ body {
 footer {
   width: 100%;
   margin-top: 200px;
-  /*background-color: black*/
   background: rgba(255, 255, 255, 0.8);
   font-weight: bold; }
   footer p {
@@ -49,7 +48,7 @@ footer {
 .primeraCaja img {
   height: 95vh; }
 
-.primeraCaja h2 {
+.primeraCaja h1, .primeraCaja h2 {
   text-align: center;
   font-family: 'lobster', cursive;
   font-size: 50px;
