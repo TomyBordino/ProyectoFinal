@@ -17,6 +17,15 @@
     background-size: cover;
   }
   
+
+  .nav-link{
+    color: $color-amarillo;
+
+    &:hover{
+      color: $color-amarillo;
+    }
+  }
+
   /*Boton Wsp*/
   
   .botonWsp img {

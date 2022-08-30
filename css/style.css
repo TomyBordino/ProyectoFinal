@@ -11,6 +11,11 @@ body {
   background: url("../imagenes/pexels-william-choquette-2641886.jpg") center center no-repeat;
   background-size: cover; }
 
+.nav-link {
+  color: #f7b733; }
+  .nav-link:hover {
+    color: #f7b733; }
+
 /*Boton Wsp*/
 .botonWsp img {
   width: 70px;
@@ -41,7 +46,7 @@ footer {
     text-align: center;
     font-size: 20px;
     color: black; }
-  footer a {
+  footer .nav-link {
     text-decoration: none;
     color: black; }
 
@@ -95,8 +100,24 @@ footer {
 .extendDos {
   text-decoration: uppercase; }
 
-.acordionPropio {
-  border: 20px; }
+.contenedorPrimeraCaja {
+  display: flex;
+  box-shadow: 0 0 30px gray;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)), url(../img/chefs-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 900px;
+  flex-direction: column-reverse; }
+  .contenedorPrimeraCaja h1, .contenedorPrimeraCaja h2 {
+    text-align: center;
+    font-family: 'lobster', cursive;
+    font-size: 50px;
+    color: black; }
+  .contenedorPrimeraCaja p {
+    color: black;
+    font-size: 30px;
+    font-family: 'lobster', cursive; }
 
 .tituloPreguntas {
   color: white;
