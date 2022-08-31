@@ -66,15 +66,17 @@
     @extend .extend;
     text-decoration: uppercase;
 }
-  
+
+
 .contenedorPrimeraCaja{
   display: flex;
   box-shadow: 0 0 30px gray;
   background-image:linear-gradient(rgba(5,7,12,0.1), rgba(5,7,12,0.1)) ,url(../img/chefs-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size:auto;
   height: 900px;
+
   flex-direction: column-reverse;
 
   h1,h2 {
